@@ -12,6 +12,14 @@ p {
   text-align: center;
 }
 
+
+#classpic {
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 395px;
+}
+
 .subbutt {
   border: 2px solid #00e676;
   border-radius: 3px;
@@ -50,6 +58,23 @@ p {
   font-weight: bold;
 }
 
+.patchy{
+  border: 8px solid #73D2DE;
+  font-family: 'Poppins', sans-serif;
+  padding-top: .4em;
+  padding-bottom: .2em;
+  background-color: #ACF7C1;
+  background-image: -webkit-linear-gradient(top, #94BFBE, #E4C1F9);
+  background-image: -moz-linear-gradient(top, #94BFBE, #E4C1F9);
+  background-image: -ms-linear-gradient(top, #94BFBE, #E4C1F9);
+  background-image: -o-linear-gradient(top, #94BFBE, #E4C1F9);
+  background-image: linear-gradient(to bottom, #94BFBE, #E4C1F9);
+  color: #BF1363;
+  border-radius: 3px;
+  font-size: 2em;
+  display: block;
+  margin: auto;
+}
 
 .GridLim {
   height: 10%;
