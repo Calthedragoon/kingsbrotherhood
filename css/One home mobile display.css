@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  font-family:'Pathway Gothic One', sans-serif;
+  font-family:'Muli', sans-serif;
   text-color: #4AE27D;
 }
 
@@ -12,6 +12,23 @@ p {
   text-align: center;
 }
 
+.slideshow{
+  display: block;
+  margin: auto;
+}
+
+.arr {
+  text-align:center;
+  position: absolute; width:200px; height:200px; left:43%;
+  margin-left:-100px; /* you need to deduct half width from margin left */
+  height: 300px;
+  width: 400px;
+  transition: opacity .5s ease-in;
+  display: flex;
+  align-items: center;
+}
+
+.arr + .arr { opacity: 0; }
 
 #classpic {
   display: block;
@@ -28,14 +45,15 @@ p {
 }
 
 .head {
-  font-family:'Pathway Gothic One', sans-serif;
-  font-size: 4em;
-  text-align: center;;
-  text-color: #4AE27D;
+  font-family:'Muli', sans-serif;
+  font-size: 5em;
+  text-align: center;
   color: #4AE27D;
-  background-color:;
-  letter-spacing: 8px;
-  text-shadow: 4px 3px #5D30F2;
+  background-color: #263238;
+  letter-spacing: 5px;
+  text-shadow: 4px 2px #5D30F2;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .paspansion{
@@ -59,21 +77,9 @@ p {
 }
 
 .patchy{
-  border: 8px solid #73D2DE;
-  font-family: 'Poppins', sans-serif;
-  padding-top: .4em;
-  padding-bottom: .2em;
-  background-color: #ACF7C1;
-  background-image: -webkit-linear-gradient(top, #94BFBE, #E4C1F9);
-  background-image: -moz-linear-gradient(top, #94BFBE, #E4C1F9);
-  background-image: -ms-linear-gradient(top, #94BFBE, #E4C1F9);
-  background-image: -o-linear-gradient(top, #94BFBE, #E4C1F9);
-  background-image: linear-gradient(to bottom, #94BFBE, #E4C1F9);
-  color: #BF1363;
+  border: 2px solid #00e676;
   border-radius: 3px;
   font-size: 2em;
-  display: block;
-  margin: auto;
 }
 
 .GridLim {
