@@ -1,3 +1,18 @@
+/*Javascript to Show Patch Information from Button*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Javascript to Run Slideshow in Header*/
 var current = 0,
     slides = document.getElementsByClassName("arr");

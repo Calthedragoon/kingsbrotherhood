@@ -1,13 +1,29 @@
 body {
-  background-color: #104F55;
+  background-color: #563B5A;
 }
 
-header {
-  font-family:'Muli', sans-serif;
-  text-color: #4AE27D;
+/*Background image Styling for header*/
+.head {
+  background-image: url('https://i.imgur.com/XBXSoEG.jpg');
+  background-size: 600px 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+/*Font Styling for header*/
+  font-family:'Bungee', cursive;
+  font-size: 5em;
+  text-align: center;
+  color: #332A40;
+  text-shadow: 4px 2px #8035CE;
+  letter-spacing: 2.5px;
+
 }
 
-p {
+p{
+  color: white;
+  text-align: center;
+}
+
+.cardtext {
   color: white;
   text-align: center;
 }
@@ -18,14 +34,15 @@ p {
 }
 
 .arr {
+  display: block;
+  margin: auto;
   text-align:center;
   position: absolute; width:200px; height:200px; left:43%;
   margin-left:-100px; /* you need to deduct half width from margin left */
   height: 300px;
   width: 400px;
   transition: opacity .5s ease-in;
-  display: flex;
-  align-items: center;
+
 }
 
 .arr + .arr { opacity: 0; }
@@ -37,6 +54,19 @@ p {
   width: 395px;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 white;
+}
+
+.container {
+  padding: 2px 16px; 
+}
+
 .subbutt {
   border: 2px solid #00e676;
   border-radius: 3px;
@@ -44,21 +74,11 @@ p {
   font-size: 2em;
 }
 
-.head {
-  font-family:'Muli', sans-serif;
-  font-size: 5em;
-  text-align: center;
-  color: #4AE27D;
-  background-color: #263238;
-  letter-spacing: 5px;
-  text-shadow: 4px 2px #5D30F2;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
 
 .paspansion{
-  padding-top: .5em;
-  font-family:'Orbitron', sans-serif;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family:'Rubik', sans-serif;
   text-align: center;
   color: #5D30F2;
   background-color: #DABFFF;
@@ -75,30 +95,16 @@ p {
   letter-spacing: 2px;
   font-weight: bold;
 }
-
+/*CSS for Patch Information Button*/
 .patchy{
-  border: 2px solid #00e676;
-  border-radius: 3px;
-  font-size: 2em;
-}
-
-.GridLim {
-  height: 10%;
-  width: 10%;
-}
-
-.Ulgard{
-  height: 10%;
-  width: 10%;
-}
-
-.butt {
-  font-family:;
-  font-size:;
-  color: white;
-  align-items: flex-start;
-  display: auto;
-  background-color: transparent;
+  color: #8035CE;
+  background-color: #28223D;
+  font-family: 'Cabin', sans-serif;
+  border: 8px double #332A40;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  font-size: 2.3em;
 }
 
 input {
