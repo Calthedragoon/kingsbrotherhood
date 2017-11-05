@@ -2,22 +2,6 @@ body {
   background-color: #563B5A;
 }
 
-/*Background image Styling for header*/
-.head {
-  background-image: url('https://i.imgur.com/XBXSoEG.jpg');
-  background-size: 600px 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-/*Font Styling for header*/
-  font-family:'Bungee', cursive;
-  font-size: 5em;
-  text-align: center;
-  color: #332A40;
-  text-shadow: 4px 2px #8035CE;
-  letter-spacing: 2.5px;
-
-}
-
 p{
   color: white;
   text-align: center;
@@ -28,53 +12,23 @@ p{
   text-align: center;
 }
 
-.slideshow{
-  display: block;
-  margin: auto;
+/*Background Image Styling for header*/
+.head {
+  background-image: url('https://i.imgur.com/XBXSoEG.jpg');
+  background-size: 600px 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+/*Font Styling for header*/
+  font-family:'Bungee', cursive;
+  font-size: 5em;
+  text-align: center;
+  color: #332A40;
+  text-shadow: 4px 2px #8035CE;
+  letter-spacing: 2.5px;
 }
 
-.arr {
-  display: block;
-  margin: auto;
-  text-align:center;
-  position: absolute; width:200px; height:200px; left:43%;
-  margin-left:-100px; /* you need to deduct half width from margin left */
-  height: 300px;
-  width: 400px;
-  transition: opacity .5s ease-in;
-
-}
-
-.arr + .arr { opacity: 0; }
-
-#classpic {
-  display: block;
-  margin: auto;
-  height: 400px;
-  width: 395px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 white;
-  transition: 0.3s;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 white;
-}
-
-.container {
-  padding: 2px 16px; 
-}
-
-.subbutt {
-  border: 2px solid #00e676;
-  border-radius: 3px;
-  background-color: #c6ff00;
-  font-size: 2em;
-}
-
-
+/*Styling for Patch Banner and Headline Slideshow*/
 .paspansion{
   padding-top: 1em;
   padding-bottom: 1em;
@@ -86,15 +40,19 @@ p{
   font-weight: bold;
 }
 
-.classhead{
-  padding-top: .35em;
-  font-family:'Pathway Gothic One', sans-serif;
-  text-align: center;
-  background-color: #263238;
-  color: #00bcd4;
-  letter-spacing: 2px;
-  font-weight: bold;
+#slide {
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 500px;
+  transition: opacity .5s ease-in;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
 }
+
+#slide + #slide { opacity: 0; }
+
 /*CSS for Patch Information Button*/
 .patchy{
   color: #8035CE;
@@ -107,6 +65,29 @@ p{
   font-size: 2.3em;
 }
 
+.patchy:hover {
+  border: 8px double #8035CE;
+}
+
+/*Styling and Positioning for Class Picture and Headings*/
+.classhead{
+  padding-top: .35em;
+  font-family:'Pathway Gothic One', sans-serif;
+  text-align: center;
+  background-color: #263238;
+  color: #00bcd4;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#classpic {
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 395px;
+}
+
+/*CSS for input form and submit button*/
 input {
   width: 75%;
   padding: 12px 15px;
@@ -138,4 +119,11 @@ textarea{
 textarea[type=text]:focus {
   background-color: #263238;
   color: #00bcd4;
+}
+
+.subbutt {
+  border: 2px solid #00e676;
+  border-radius: 3px;
+  background-color: #c6ff00;
+  font-size: 2em;
 }
