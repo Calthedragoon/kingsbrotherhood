@@ -1,5 +1,5 @@
 body {
-  background-color: #563B5A;
+  background-color: #0F084B;
 }
 
 p{
@@ -13,13 +13,17 @@ p{
 }
 
 /*Background Image Styling for header*/
-.head {
-  background-image: url('https://i.imgur.com/BXgmuG8.jpg');
-  background-size: 600px 500px;
+#head {
+  background-image: url('https://i.imgur.com/KCdZATu.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
+  height: auto;
+  background-position:;
+}
 
 /*Font Styling for header*/
+.king {
   font-family:'Bungee', cursive;
   font-size: 5em;
   text-align: center;
@@ -40,28 +44,14 @@ p{
   font-weight: bold;
 }
 
-/*CSS for Patch Information Button*/
-.patchy{
-  color: #8035CE;
-  background-color: #28223D;
-  font-family: 'Cabin', sans-serif;
-  border: 8px double #332A40;
-  border-radius: 8px;
-  display: block;
-  margin: auto;
-  font-size: 2.3em;
-}
-
-.patchy:hover {
-  border: 8px double #8035CE;
-}
-
 /*Styling and Positioning for Class Picture and Headings*/
 .classhead{
-  padding-top: .35em;
-  font-family:'Pathway Gothic One', sans-serif;
-  text-align: center;
-  background-color: #263238;
+  background-image: url('https://i.imgur.com/NxvRnQ7.jpg');
+  background-position: left;
+  padding-top: .5em;
+  font-family:'Cabin', sans-serif;
+  font-size: 2em;
+  background-color: #0D0221;
   color: #00bcd4;
   letter-spacing: 2px;
   font-weight: bold;
@@ -70,8 +60,7 @@ p{
 #classpic {
   display: block;
   margin: auto;
-  height: 400px;
-  width: 395px;
+  width: 75%;
 }
 
 /*CSS for input form and submit button*/
