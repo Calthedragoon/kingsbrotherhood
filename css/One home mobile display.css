@@ -14,7 +14,7 @@ p{
 
 /*Background Image Styling for header*/
 .head {
-  background-image: url('https://i.imgur.com/XBXSoEG.jpg');
+  background-image: url('https://i.imgur.com/BXgmuG8.jpg');
   background-size: 600px 500px;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,19 +39,6 @@ p{
   letter-spacing: 3px;
   font-weight: bold;
 }
-
-#slide {
-  display: block;
-  margin: auto;
-  height: 400px;
-  width: 500px;
-  transition: opacity .5s ease-in;
-  position: relative;
-  margin: 0 auto;
-  clear: both;
-}
-
-#slide + #slide { opacity: 0; }
 
 /*CSS for Patch Information Button*/
 .patchy{
