@@ -2,12 +2,35 @@ body {
   background-color: #003D5B;
 }
 
-p{
-  color: white;
+/*Styling for Patch Banner*/
+ul {
+  padding: 1em 2em 5em 2em;
+}
+
+li {
+  display: block;
+  margin: 10px 5px;
+  color: #AAFFE5;
+  background-color: #0D0221;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 2.5px;
+  border: 7px solid #0D0221;
+  border-radius: 15px;
   text-align: center;
-  font-family: 'Maven Pro', 'sans-sarif';
+}
+
+li:hover {
+  color: #0D0221;
+  background-color: #AAFFE5;
+  cursor: pointer;
+}
+
+p{
+  color: #89A894;
+  text-align: center;
+  font-family: 'Archivo Black', 'sans-sarif';
   font-size: 1.35em;
-  background-image: url('https://i.imgur.com/YvtsAQv.jpg');
 }
 
 .cardtext {
@@ -27,25 +50,13 @@ p{
 
 /*Font Styling for header*/
 .king {
-  font-family:'Bungee', cursive;
+  font-family:'Poppins', sans-serif;
   font-size: 5em;
   text-align: center;
   border: 7px solid #0D0221;
-  color: #332A40;
-  text-shadow: 4px 2px #0D0221;
+  color: #AAFFE5;
+  text-shadow: 7px 2px #0D0221;
   letter-spacing: 2.5px;
-}
-
-/*Styling for Patch Banner and Headline Slideshow*/
-.paspansion{
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-family:'Rubik', sans-serif;
-  text-align: center;
-  color: #5D30F2;
-  background-color: #DABFFF;
-  letter-spacing: 3px;
-  font-weight: bold;
 }
 
 /*Styling and Positioning for Class Picture and Headings*/
@@ -54,23 +65,29 @@ p{
   background-size: cover;
   background-position: center;
   border: 7px solid #0D0221;
-  opacity: 0.75;
-  height: 108px;
+  height: 125px;
+  width: 700px;
 }
 .classhead {
-  padding-top: .5em;
-  font-family:'Cabin', sans-serif;
+  font-family:'Kanit', sans-serif;
   font-size: 2.5em;
   color: #00bcd4;
-  letter-spacing: 2px;
+  text-shadow: 5px 3px #0D0221;
+  letter-spacing: 1px;
   font-weight: bold;
 }
 
 #classpic {
   padding-top: 2.5em;
-  display: block;
   margin: auto;
   width: 75%;
+  border-radius: 8px;
+}
+
+/*Picture Text CSS*/
+.cardtext {
+  background-color: #2C423F;
+  color: #EAE6E5;
 }
 
 /*CSS for input form and submit button*/
