@@ -2,16 +2,34 @@ body {
   background-color: #003D5B;
 }
 
-/*Styling for Patch Banner*/
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 10px solid #022B3A;
+  margin: 5em 5em 2em 5em;
+  padding: 0;
+}
+
+#divider {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 10px solid #0D0221;
+  margin: 4em 4em 4em 4em;
+  padding: 0;
+}
+
+/*Styling for Section Buttons*/
 ul {
-  padding: 1em 2em 5em 2em;
+  padding: 2em 7em 20em 7em;
 }
 
 li {
   display: block;
   margin: 10px 5px;
   color: #AAFFE5;
-  background-color: #0D0221;
+  background-color: #022B3A;
   font-family: 'Poppins', sans-serif;
   font-size: 1.5em;
   letter-spacing: 2.5px;
@@ -26,7 +44,8 @@ li:hover {
   cursor: pointer;
 }
 
-p{
+p {
+  padding: 2em 2em .5em 2em;
   color: #89A894;
   text-align: center;
   font-family: 'Archivo Black', 'sans-sarif';
@@ -43,9 +62,10 @@ p{
   background-image: url('https://i.imgur.com/TnZ6aNX.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
   background-position: center;
+  width: auto;
+  height: 300px;
+  border: 7px solid #0D0221;
 }
 
 /*Font Styling for header*/
@@ -53,7 +73,6 @@ p{
   font-family:'Poppins', sans-serif;
   font-size: 5em;
   text-align: center;
-  border: 7px solid #0D0221;
   color: #AAFFE5;
   text-shadow: 7px 2px #0D0221;
   letter-spacing: 2.5px;
@@ -66,7 +85,8 @@ p{
   background-position: center;
   border: 7px solid #0D0221;
   height: 125px;
-  width: 700px;
+  width: auto;
+  margin-left: 15px;
 }
 .classhead {
   font-family:'Kanit', sans-serif;
@@ -78,10 +98,23 @@ p{
 }
 
 #classpic {
-  padding-top: 2.5em;
-  margin: auto;
-  width: 75%;
+  padding-top: ;
+  margin-left: 2px;
+  height: 420px;
+  width: 95%;
+  border: 9px solid #022B3A;
   border-radius: 8px;
+}
+
+#rightclass {
+  float: right;
+  padding-top: ;
+  margin-left: 2px;
+  height: 420px;
+  width: 95%;
+  border: 10px solid #022B3A;
+  border-radius: 8px;
+
 }
 
 /*Picture Text CSS*/
@@ -91,16 +124,72 @@ p{
 }
 
 /*CSS for input form and submit button*/
-input {
-  width: 75%;
-  padding: 12px 15px;
-  margin: 8px 0;
+h1{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 3em;
+  font-family: 'Contrail One', cursive;
+  color: #AAFFE5;
+  text-shadow: 7px 2px #0D0221;
+  letter-spacing: 3px;
 }
 
-input[type=text]{
+h2{
+  text-align: center;
+  font-size: 2em;
+  padding-top: .5em;
+  font-family: 'Contrail One', cursive;
+  color: #AAFFE5;
+  text-shadow: 7px 2px #0D0221;
+  letter-spacing: 3px;
+}
+
+#formp {
+  font-family: 'Contrail One', cursive;
+  color: #AAFFE5;
+  text-shadow: 7px 2px #0D0221;
+  letter-spacing: 1px;
+}
+
+fieldset {
+  border: 3px solid #0D0221;
+}
+
+form {
+  margin: 60px 60px;
+  background-color: #0D0221;
+  border: 3px solid #00e676;
+}
+
+legend {
+  color: #E8E9F3;
+  font-family: 'Contrail One', cursive;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+label {
+  color: #E8E9F3;
+  font-family: 'Contrail One', cursive;
+  font-size: 1.25em;
+}
+
+input {
+  width: 90%;
+  padding: 12px 15px;
+  margin: 25px 8px;
+}
+
+input:hover {
+  cursor: text;
+}
+
+input[type=text] {
   background-color: white;
   color: black;
-  border: 2px solid #00e676;
+  border: 3px solid #00e676;
   border-radius: 3px;
 }
 
@@ -111,12 +200,12 @@ input[type=text]:focus {
 
 textarea{
   background-color: white;
-  color: black;
-  border: 2px solid #00e676;
+  color: ;
+  border: 3px solid #00e676;
   border-radius: 3px;
-  width: 75%;
-  padding: 12px 15px;
-  margin: 8px 0;
+  width: 90%;
+  padding: 30px 15px;
+  margin: 25px 8px;
 }
 
 textarea[type=text]:focus {
@@ -124,9 +213,26 @@ textarea[type=text]:focus {
   color: #00bcd4;
 }
 
+/*Submit Button css and positioning*/
 .subbutt {
-  border: 2px solid #00e676;
-  border-radius: 3px;
-  background-color: #c6ff00;
-  font-size: 2em;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #AAFFE5;
+  background-color: #022B3A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.75em;
+  letter-spacing: 3px;
+  border: 4.5px solid #00e676;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.subbutt:hover {
+  color: #0D0221;
+  background-color: #AAFFE5;
+  cursor: pointer;
+  border: 5px solid #00e676;
 }
