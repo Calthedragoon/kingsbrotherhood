@@ -1,28 +1,63 @@
 body {
-  background-color: #003D5B;
+  background-color: #0D0221;
 }
 
 hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 10px solid #022B3A;
+  border-top: 6px solid #00e676;
+  border-radius: 8px;
   margin: 5em 5em 2em 5em;
   padding: 0;
 }
+
+img:hover {
+  cursor: zoom-in;
+}
+
+
+/*Background Image Styling for header*/
+#head {
+  background-image: url('https://i.imgur.com/TnZ6aNX.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #022B3A;
+  width: auto;
+  height: 400px;
+  border-top: 5px solid #00e676;
+  border-bottom: 5px solid #00e676;
+  border-radius: 15px;
+}
+
+
+/*Font Styling for header*/
+.king {
+  font-size: 6.5em;
+  text-align: center;
+  padding-top: .5em;
+  font-family:'Contrail One', cursive;
+  color: #AAFFE5;
+  text-shadow: 7px 3px #0D0221;
+  letter-spacing: 1px;
+}
+
 
 #divider {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 10px solid #0D0221;
-  margin: 4em 4em 4em 4em;
+  border-top: 5px solid #00e676;
+  border-radius: 15px;
+  margin: 3em 5em 3em 5em;
   padding: 0;
 }
 
+
 /*Styling for Section Buttons*/
 ul {
-  padding: 2em 7em 20em 7em;
+  padding: 2em 7em 8em 7em;
 }
 
 li {
@@ -30,10 +65,10 @@ li {
   margin: 10px 5px;
   color: #AAFFE5;
   background-color: #022B3A;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Contrail One', cursive;
   font-size: 1.5em;
   letter-spacing: 2.5px;
-  border: 7px solid #0D0221;
+  border: 3px solid #00e676;
   border-radius: 15px;
   text-align: center;
 }
@@ -42,86 +77,94 @@ li:hover {
   color: #0D0221;
   background-color: #AAFFE5;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 p {
   padding: 2em 2em .5em 2em;
-  color: #89A894;
-  text-align: center;
-  font-family: 'Archivo Black', 'sans-sarif';
-  font-size: 1.35em;
-}
-
-.cardtext {
-  color: white;
-  text-align: center;
-}
-
-/*Background Image Styling for header*/
-#head {
-  background-image: url('https://i.imgur.com/TnZ6aNX.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: auto;
-  height: 300px;
-  border: 7px solid #0D0221;
-}
-
-/*Font Styling for header*/
-.king {
-  font-family:'Poppins', sans-serif;
-  font-size: 5em;
-  text-align: center;
   color: #AAFFE5;
-  text-shadow: 7px 2px #0D0221;
-  letter-spacing: 2.5px;
+  text-align: center;
+  font-family: 'Contrail One', cursive;
+  font-size: 1.50em;
 }
+
+
+
 
 /*Styling and Positioning for Class Picture and Headings*/
 .classheady {
   background-image: url('https://i.imgur.com/psmMSc4.jpg');
   background-size: cover;
   background-position: center;
-  border: 7px solid #0D0221;
+  border-top:    4px solid #00e676;
+  border-left:   4px solid #00e676;
+  border-bottom: 4px solid #00e676;
   height: 125px;
   width: auto;
   margin-left: 15px;
 }
+
 .classhead {
-  font-family:'Kanit', sans-serif;
+  font-family: 'Contrail One', cursive;
   font-size: 2.5em;
-  color: #00bcd4;
+  text-align: right;
+  margin-right: 8px;
+  color: #AAFFE5;
   text-shadow: 5px 3px #0D0221;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   font-weight: bold;
 }
 
 #classpic {
-  padding-top: ;
-  margin-left: 2px;
-  height: 420px;
-  width: 95%;
-  border: 9px solid #022B3A;
+  float: left;
+  margin: 2.5em 3em 0 0;
+  height: 270px;
+  width: 55%;
+  border-top: 4px solid #00e676;
+  border-right:  4px solid #00e676;
+  border-bottom: 4px solid #00e676;
   border-radius: 8px;
+
 }
 
 #rightclass {
   float: right;
-  padding-top: ;
-  margin-left: 2px;
-  height: 420px;
-  width: 95%;
-  border: 10px solid #022B3A;
+  margin: 2.5em 0 0 3em;
+  height: 270px;
+  width: 55%;
+  border-top: 4px solid #00e676;
+  border-left: 4px solid #00e676;
+  border-bottom: 4px solid #00e676;
   border-radius: 8px;
-
 }
+
 
 /*Picture Text CSS*/
 .cardtext {
-  background-color: #2C423F;
-  color: #EAE6E5;
+  display: block;
+  height: auto;
+  vertical-align: middle;
+  text-align: right;
+  color: #AAFFE5;
+  font-family: 'Contrail One', cursive;
+  font-size: 1.25em;
+  letter-spacing: 1.25px;
+  padding-bottom: 4em;
 }
+
+
+.cardtextleft {
+  height: auto;
+  width: auto;
+  vertical-align: middle;
+  text-align: left;
+  padding-bottom: 4em;
+  color: #AAFFE5;
+  font-family: 'Contrail One', cursive;
+  font-size: 1.25em;
+  letter-spacing: 1.25px;
+}
+
 
 /*CSS for input form and submit button*/
 h1{
@@ -158,7 +201,6 @@ fieldset {
 form {
   margin: 60px 60px;
   background-color: #0D0221;
-  border: 3px solid #00e676;
 }
 
 legend {
@@ -222,7 +264,7 @@ textarea[type=text]:focus {
   padding-right: 30px;
   color: #AAFFE5;
   background-color: #022B3A;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Contrail One', cursive;
   font-size: 1.75em;
   letter-spacing: 3px;
   border: 4.5px solid #00e676;
