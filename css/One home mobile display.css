@@ -1,11 +1,12 @@
-
 /*General Tag CSS*/
+
 body {
   background-color: #0D0221;
 }
 
 
 /*Header and Slideshow CSS*/
+
 .king {
   font-size: 5.25em;
   font-family:'Contrail One', cursive;
@@ -58,6 +59,7 @@ hr {
 
 
 /*Styling for Section Buttons*/
+
 ul {
   padding: 2em 7em 10em 7em;
 }
@@ -89,6 +91,8 @@ li {
 li:hover {
   background-color: #B8DBD9;
 }
+
+/*Intro main paragraph CSS*/
 
 p {
   padding: 2em 2em .5em 2em;
@@ -135,7 +139,6 @@ p {
 }
 
 
-
 /*Picture Text CSS*/
 .cardtext {
   display: block;
@@ -148,15 +151,6 @@ p {
   letter-spacing: 1.25px;
   margin: 0 0 7em 0;
 }
-
-.cardtextmid {
-  padding-bottom: 4em;
-}
-
-.cardtextbottom {
-  padding-bottom: 12em;
-}
-
 
 /*CSS for input form and submit button*/
 h1{
@@ -248,7 +242,7 @@ textarea[type=text]:focus {
 }
 
 /*Submit Button css and positioning*/
-.subbutt {
+#subbutt {
   display: block;
   margin: auto;
   margin-top: 25px;
@@ -264,7 +258,7 @@ textarea[type=text]:focus {
   text-align: center;
 }
 
-.subbutt:hover {
+#subbutt:hover {
   color: #0D0221;
   background-color: #AAFFE5;
   cursor: pointer;

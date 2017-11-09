@@ -1,3 +1,6 @@
+var mymessage = "Thank you for submitting! Please continue to enjoy the rest of the site."
+
+/*To Show and Hide Picture Text*/
 $(document).ready(function() {
   $('.cardtext').hide();
 
@@ -11,5 +14,10 @@ $(document).ready(function() {
 
   $("#pictext3").click(function(){
     $("#cardtext3").toggle();
+  });
+  
+/*Submit Input Alert Message*/
+  $('#subbutt').click(function(){
+    alert(mymessage);
   });
 });

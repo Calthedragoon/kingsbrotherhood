@@ -1,5 +1,5 @@
-
 /*Slideshow Vanilla Script*/
+
 var slideindex = 0;
 showslides();
 
