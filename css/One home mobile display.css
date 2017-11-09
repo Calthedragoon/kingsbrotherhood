@@ -1,6 +1,40 @@
+
 /*General Tag CSS*/
 body {
   background-color: #0D0221;
+}
+
+
+/*Header and Slideshow CSS*/
+.king {
+  font-size: 5.25em;
+  font-family:'Contrail One', cursive;
+  color: #AAFFE5;
+  text-align: center;
+}
+
+#headslide {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 480px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 hr {
@@ -10,36 +44,6 @@ hr {
   border-top: 4px solid #00e676;
   border-radius: 8px;
   margin: 5em 5em 2em 5em;
-}
-
-img:hover {
-  cursor: zoom-in;
-}
-
-
-/*Background Image Styling for header*/
-#head {
-  background-image: url('https://i.imgur.com/TnZ6aNX.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #022B3A;
-  width: auto;
-  height: auto;
-  border-top: 5px solid #00e676;
-  border-bottom: 5px solid #00e676;
-  border-radius: 15px;
-}
-
-
-/*Font Styling for header*/
-.king {
-  font-size: 5.25em;
-  text-align: center;
-  font-family:'Contrail One', cursive;
-  color: #AAFFE5;
-  text-shadow: 7px 3px #0D0221;
-  letter-spacing: 1px;
 }
 
 
@@ -133,7 +137,7 @@ p {
 
 
 /*Picture Text CSS*/
-#cardtext {
+.cardtext {
   display: block;
   height: auto;
   vertical-align: bottom;
