@@ -41,26 +41,6 @@ body {
   to {opacity: 1}
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 4px solid #00e676;
-  border-radius: 8px;
-  margin: 5em 5em 2em 5em;
-}
-
-
-#divider {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 3px solid #00e676;
-  border-radius: 8px;
-  margin: 3em 4em 6em 4em;
-}
-
-
 /*Styling for Section Buttons*/
 
 ul {
@@ -76,18 +56,19 @@ a {
 }
 
 a:hover {
-  color: #59B3B4;
+  color: #AAFFE5;
   cursor: pointer;
   text-decoration: none;
 }
 
 li {
-  font-family: 'Montserrat Subrayada', sans-serif;
-  background-color: #B18FCF
-  background: -webkit-linear-gradient(left top, #EFFBFF, #B18FCF);
-  background: -o-linear-gradient(bottom right, #EFFBFF, #B18FCF);
-  background: -moz-linear-gradient(bottom right, #EFFBFF, #B18FCF);
-  background: linear-gradient(to bottom right, #EFFBFF, #B18FCF);
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  background-color: #AAFFE5;
+  background: -webkit-linear-gradient(left top, #AAFFE5, #B18FCF);
+  background: -o-linear-gradient(bottom right, #AAFFE5, #B18FCF);
+  background: -moz-linear-gradient(bottom right, #AAFFE5, #B18FCF);
+  background: linear-gradient(to bottom right, #AAFFE5, #B18FCF);
   list-style: none;
   font-size: 1.85em;
   text-align: center;
@@ -108,9 +89,9 @@ li:hover::after {
 }
 
 
-/*Intro main paragraph CSS*/
+/*Intro main paragraph CSS and Divider Line*/
 
-p {
+#intro {
   padding: 2em 2em .5em 2em;
   color: #020C38;
   text-align: center;
@@ -119,40 +100,65 @@ p {
   text-shadow: 1px 1px #7C4C02;
 }
 
+#divider {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-bottom: 3px solid #59B3B4;
+  border-radius: 8px;
+  margin: 3em 4em 8em 4em;
+}
+
 
 /*Styling and Positioning for Class Picture and Headings*/
+
 .classheady {
   background-image: url('https://i.imgur.com/klYMuiv.jpg');
   background-size: cover;
   background-position: center;
-  border-top: 4px solid #00e676;
-  border-bottom: 4px solid #00e676;
-  border-radius: 4px;
   height: 110px;
   width: auto;
 }
 
 .classhead {
-  font-family: 'Contrail One', cursive;
-  font-size: 2.1em;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #E2FEFF;
+  border-top: 2px solid #E1E5CE;
+  border-bottom: 2px solid #E1E5CE;
+  border-radius: 7px;
+  font-size: 1.85em;
   text-align: center;
   margin-top: 8px;
-  margin-right: 8px;
-  color: #AAFFE5;
   text-shadow: 5px 3px #0D0221;
   letter-spacing: .5px;
   font-weight: bold;
+  opacity: 1;
 }
 
 #cardhead {
+  font-family: 'Play', sans-serif;
+  text-align: center;
+  padding: .5em 0 .5em 0;
+  color: #173C11;
+  background-color: #EFFBFF;
+  border-top: 4px solid #59B3B4;
+  border-bottom: 4px solid #59B3B4;
   float: bottom;
-  font-size: 2em;
+  font-size: 2.5em;
   background-color: #F4F4F9;
 }
 
 #classpic {
   height: 350px;
   width: 480px;
+}
+
+.picbutt {
+  display: block;
+  margin: auto;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 1.75em;
+  margin-bottom: 2em;
 }
 
 
@@ -198,7 +204,7 @@ h2{
 }
 
 fieldset {
-  border: 1px solid #E2FEFF; 
+  border: 1px solid #E2FEFF;
 }
 
 form {
@@ -284,4 +290,8 @@ textarea[type=text]:focus {
 /*Styling for footer*/
 footer {
   font-family: 'Play', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: .5em;
+  background-color: #AAFFE5;
 }
