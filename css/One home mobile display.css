@@ -1,6 +1,5 @@
 body {
   background-color: #E2FEFF;
-  max-width: 480px;
 }
 
 /*Header and Slideshow CSS*/
@@ -18,8 +17,8 @@ body {
 #headslide {
   position: relative;
   display: block;
-  margin: auto;
-  width: 480px;
+  height: 300px;
+  width: 100%;
   opacity: 1;
   border: 2px solid #E1E5CE;
   border-radius: 7px;
@@ -135,7 +134,8 @@ li:hover::after {
 }
 
 #cardhead {
-  font-family: 'Play', sans-serif;
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
   text-align: center;
   padding: .5em 0 .5em 0;
   color: #173C11;
@@ -148,10 +148,10 @@ li:hover::after {
 }
 
 #classpic {
-  height: 350px;
-  width: 480px;
   border-bottom: 4px solid #59B3B4;
   margin-bottom: 20px;
+  height: 350px;
+  width: 100%;
 }
 
 .picbutt {
@@ -321,10 +321,56 @@ footer {
   font-size: 1em;
   font-weight: bold;
   text-align: center;
-  width: 480px;
+  width: 100%;
   margin-right: .5em;
   background-color: #AAFFE5;
 }
 
 
-/*Media Queries*/
+/*Media Query for Ipad*/
+@media only screen and (min-width: 768px) {
+
+  #headslide {
+    height: 400px;
+  }
+
+  #classpic {
+    height: 500px;
+  }
+
+  ul {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+}
+
+/*Media Query for Desktop and Laptop*/
+@media only screen and (min-width: 1224px) {
+
+  #headslide {
+    height: 450px;
+  }
+
+  ul {
+  }
+
+  #cardhead {
+    width: 65%;
+    border: 4px solid #59B3B4;
+    border-radius: 10px;
+    margin-top: 13em;
+  }
+
+  #classpic {
+    height: 500px;
+    width: 65%;
+    border: 4px solid #59B3B4;
+    border-radius: 10px;
+    float: right;
+  }
+
+  .cardtext {
+    margin: 5px 10px 0 10px;
+    font-size: 1.5em;
+  }
+}
