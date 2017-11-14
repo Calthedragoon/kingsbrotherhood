@@ -1,5 +1,6 @@
 body {
   background-color: #E2FEFF;
+  max-width: 480px;
 }
 
 /*Header and Slideshow CSS*/
@@ -118,21 +119,19 @@ li:hover::after {
   background-position: center;
   height: 110px;
   width: auto;
+  border-top: 3px solid #59B3B4;
+  border-bottom: 3px solid #59B3B4;
 }
 
 .classhead {
-  font-family: 'Montserrat Subrayada', sans-serif;
+  font-family: 'Play', sans-serif;
   color: #E2FEFF;
-  border-top: 2px solid #E1E5CE;
-  border-bottom: 2px solid #E1E5CE;
-  border-radius: 7px;
   font-size: 1.85em;
   text-align: center;
-  margin-top: 8px;
+  padding-top: 12px;
   text-shadow: 5px 3px #0D0221;
   letter-spacing: .5px;
   font-weight: bold;
-  opacity: 1;
 }
 
 #cardhead {
@@ -151,15 +150,43 @@ li:hover::after {
 #classpic {
   height: 350px;
   width: 480px;
+  border-bottom: 4px solid #59B3B4;
+  margin-bottom: 20px;
 }
 
 .picbutt {
   display: block;
   margin: auto;
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-size: 1.75em;
-  margin-bottom: 2em;
+  margin-bottom: 30px;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  color: #173C11;
+  background-color: #AAFFE5;
+  background: -webkit-linear-gradient(left top, #AAFFE5, #B18FCF);
+  background: -o-linear-gradient(bottom right, #AAFFE5, #B18FCF);
+  background: -moz-linear-gradient(bottom right, #AAFFE5, #B18FCF);
+  background: linear-gradient(to bottom right, #AAFFE5, #B18FCF);
+  font-size: 1.9em;
+  text-align: center;
+  border: 3px solid #173C11;
+  border-radius: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 5px 10px 10px 10px;
 }
+
+.picbutt:hover {
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #AAFFE5;
+  cursor: pointer;
+}
+
+.picbutt:hover::after {
+  opacity: 1;
+  right: 0;
+}
+
 
 
 /*Picture Text CSS*/
@@ -167,39 +194,38 @@ li:hover::after {
   display: block;
   height: auto;
   vertical-align: bottom;
-  text-align: left;
-  color: #AAFFE5;
-  font-family: 'Contrail One', cursive;
+  text-align: center;
+  color: #173C11;
+  font-family: 'Abel', cursive;
   font-size: 1.3em;
+  font-weight: bold;
   letter-spacing: 1.25px;
-  margin: 0 0 7em 0;
+  margin: 2.5em 0 5em 0;
 }
 
 /*CSS for input form and submit button*/
+
 h1{
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   padding-top: 3em;
-  font-family: 'Contrail One', cursive;
-  color: #AAFFE5;
-  text-shadow: 7px 2px #0D0221;
+  font-family: 'Abel', sans-serif;
+  color: #173C11;
   letter-spacing: 3px;
 }
 
 h2{
   text-align: center;
   font-size: 2em;
-  padding-top: .5em;
-  font-family: 'Contrail One', cursive;
-  color: #AAFFE5;
-  text-shadow: 7px 2px #0D0221;
+  padding-top: 2em;
+  font-family: 'Abel', sans-serif;
+  color: #173C11;
   letter-spacing: 3px;
 }
 
 #formp {
-  font-family: 'Contrail One', cursive;
-  color: #AAFFE5;
-  text-shadow: 7px 2px #0D0221;
+  font-family: 'Play', sans-serif;
+  color: #173C11;
   letter-spacing: 1px;
 }
 
@@ -212,8 +238,8 @@ form {
 }
 
 legend {
-  color: #E8E9F3;
-  font-family: 'Contrail One', cursive;
+  color: #173C11;
+  font-family: 'Play', sans-serif;
   font-size: 1.5em;
   text-align: center;
   padding-top: 3em;
@@ -221,8 +247,8 @@ legend {
 }
 
 label {
-  color: #E8E9F3;
-  font-family: 'Contrail One', cursive;
+  color: #173C11;
+  font-family: 'Play', sans-serif;
   font-size: 1.25em;
 }
 
@@ -272,9 +298,9 @@ textarea[type=text]:focus {
   padding-right: 30px;
   color: #AAFFE5;
   background-color: #022B3A;
-  font-family: 'Contrail One', cursive;
+  font-family: 'Abel', sans-serif;
   font-size: 1.75em;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   border: 4.5px solid #00e676;
   border-radius: 15px;
   text-align: center;
@@ -282,6 +308,8 @@ textarea[type=text]:focus {
 
 #subbutt:hover {
   color: #0D0221;
+  font-weight: bold;
+  letter-spacing: 6px;
   background-color: #AAFFE5;
   cursor: pointer;
   border: 5px solid #00e676;
@@ -292,6 +320,11 @@ footer {
   font-family: 'Play', sans-serif;
   font-size: 1em;
   font-weight: bold;
+  text-align: center;
+  width: 480px;
   margin-right: .5em;
   background-color: #AAFFE5;
 }
+
+
+/*Media Queries*/
