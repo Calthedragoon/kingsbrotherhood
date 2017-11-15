@@ -334,7 +334,7 @@ footer {
 }
 
 /*Media Query for Iphone*/
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   #place {
     display: none;
   }
@@ -460,5 +460,9 @@ footer {
     padding: .5em 0 5em 10px;
     font-size: 1.75em;
     text-align: center;
+  }
+
+  form {
+    margin: 0 15em 6em 15em;
   }
 }
