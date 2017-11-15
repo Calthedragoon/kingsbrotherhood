@@ -11,7 +11,6 @@ body {
   border-bottom: 4px solid #59B3B4;
   font-size: 3.5em;
   text-align: right;
-  opacity:;
 }
 
 #headslide {
@@ -19,7 +18,6 @@ body {
   display: block;
   height: 300px;
   width: 100%;
-  opacity: 1;
   border: 2px solid #E1E5CE;
   border-radius: 7px;
 }
@@ -337,21 +335,61 @@ footer {
   #classpic {
     height: 500px;
   }
-
-  ul {
-    padding-left: 6em;
-    padding-right: 6em;
-  }
 }
 
 /*Media Query for Desktop and Laptop*/
+
 @media only screen and (min-width: 1224px) {
 
   #headslide {
-    height: 450px;
+    height: 300px;
+    width: 50%;
+    border-top: 4px solid #59B3B4;
+    border-bottom: 4px solid #59B3B4;
+    border-right: 4px solid #59B3B4;
+  }
+
+  .king{
+    border-top: 4px solid #59B3B4;
+    border-bottom: 4px solid #59B3B4;
+    border-left: 4px solid #59B3B4;
+    border-radius: 8px;
+    font-size: 4.5em;
+    text-align: right;
+    margin-left: 15%;
+  }
+
+  #intro {
+    padding: 2em 2em 1em 2em;
+    color: #020C38;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.85em;
+    text-shadow: 1px 1px #7C4C02;
+  }
+
+  #divider {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 3px solid #59B3B4;
+    border-radius: 8px;
+    margin: 3em 4em 8em 4em;
   }
 
   ul {
+    display: inline-block;
+    margin-left: 8em;
+    margin-bottom: 10em;
+    background-color: #E2FEFF;
+  }
+
+  li {
+    float: left;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
   }
 
   #cardhead {
