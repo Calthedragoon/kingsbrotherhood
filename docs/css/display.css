@@ -1,0 +1,53 @@
+body {
+  background-color: #104F55;
+}
+
+header {
+  font-family:'Pathway Gothic One', sans-serif;
+  text-color: #4AE27D;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.head {
+  font-family:'Pathway Gothic One', sans-serif;
+  font-size: 4em;
+  text-align: center;;
+  text-color: #4AE27D;
+  color: #4AE27D;
+  background-color:;
+  letter-spacing: 8px;
+  text-shadow: 4px 3px #5D30F2;
+}
+
+.paspansion{
+  padding-top: .5em;
+  font-family:'Orbitron', sans-serif;
+  text-align: center;
+  color: #5D30F2;
+  background-color: #DABFFF;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.GridLim {
+  height: 10%;
+  width: 10%;
+}
+
+.Ulgard{
+  height: 10%;
+  width: 10%;
+}
+
+.butt {
+  font-family:;
+  font-size:;
+  color: white;
+  align-items: flex-start;
+  display: auto;
+  background-color: transparent;
+}
